@@ -395,7 +395,7 @@ class FacebookTab(ApiTab):
 
         # options for data handling
         if purpose == 'fetch':
-            options['basepath'] = "https://graph.facebook.com/v2.2/"
+            options['basepath'] = "https://graph.facebook.com/v2.3/"
             options['objectid'] = 'id'
             options['nodedata'] = 'data' if ('/' in options['relation']) or (options['relation'] == 'search') else None
 
